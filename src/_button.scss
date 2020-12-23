@@ -1,4 +1,4 @@
-.btn {
+.#{$prefix}btn {
   display: inline-block;
   padding: 3px 8px;
   margin-bottom: 0;
@@ -20,21 +20,21 @@
   }
 }
 
-.btn-mini {
+.#{$prefix}btn-mini {
   padding: 2px 6px;
 }
 
-.btn-large {
+.#{$prefix}btn-large {
   padding: 6px 12px;
 }
 
-.btn-form {
+.#{$prefix}btn-form {
   padding-right: 20px;
   padding-left: 20px;
 }
 
 // Normal buttons
-.btn-default {
+.#{$prefix}btn-default {
   color: $gray-color;
   border-top-color: $dark-border-color;
   border-right-color: $dark-border-color;
@@ -49,16 +49,16 @@
 }
 
 // Button variations
-.btn-primary,
-.btn-positive,
-.btn-negative,
-.btn-warning {
+.#{$prefix}btn-primary,
+.#{$prefix}btn-positive,
+.#{$prefix}btn-negative,
+.#{$prefix}btn-warning {
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 // For primary buttons
-.btn-primary {
+.#{$prefix}btn-primary {
   border-color: #388df8;
   border-bottom-color: darken(#388df8, 15%);
   @include linear-gradient(#6eb4f7, #1a82fb);
@@ -69,7 +69,7 @@
 }
 
 // For positive buttons
-.btn-positive {
+.#{$prefix}btn-positive {
   border-color: darken($positive-color, 10%);
   border-bottom-color: darken($positive-color, 15%);
   @include linear-gradient(lighten($positive-color, 10%), darken($positive-color, 10%));
@@ -80,7 +80,7 @@
 }
 
 // For negative actions
-.btn-negative {
+.#{$prefix}btn-negative {
   border-color: darken($negative-color, 10%);
   border-bottom-color: darken($negative-color, 15%);
   @include linear-gradient(lighten($negative-color, 10%), darken($negative-color, 10%));
@@ -91,7 +91,7 @@
 }
 
 // For warning actions
-.btn-warning {
+.#{$prefix}btn-warning {
   border-color: darken($warning-color, 10%);
   border-bottom-color: darken($warning-color, 15%);
   @include linear-gradient(lighten($warning-color, 10%), darken($warning-color, 10%));

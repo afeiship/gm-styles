@@ -1,4 +1,4 @@
-.form-control {
+.#{$prefix}form-control {
   display: inline-block;
   width: 100%;
   min-height: 25px;
@@ -20,7 +20,7 @@
 // Designed to help with the organization and spacing of vertical forms. For
 // horizontal forms, use the predefined grid classes.
 
-.form-group {
+.#{$prefix}form-group {
   margin-bottom: 10px;
 }
 
@@ -28,8 +28,8 @@
 //
 // Indent the labels to position radios/checkboxes as hanging controls.
 
-.radio,
-.checkbox {
+.#{$prefix}radio,
+.#{$prefix}checkbox {
   position: relative;
   display: block;
   margin-top: 10px;
@@ -42,17 +42,17 @@
   }
 }
 
-.radio input[type="radio"],
-.radio-inline input[type="radio"],
-.checkbox input[type="checkbox"],
-.checkbox-inline input[type="checkbox"] {
+.#{$prefix}radio input[type="radio"],
+.#{$prefix}radio-inline input[type="radio"],
+.#{$prefix}checkbox input[type="checkbox"],
+.#{$prefix}checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-left: -20px;
   margin-top: 4px;
 }
 
 // Form actions
-.form-actions .btn {
+.#{$prefix}form-actions .#{$prefix}btn {
   margin-right: 10px;
 
   &:last-child {
