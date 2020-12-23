@@ -1,6 +1,6 @@
 {
   "name": "@jswork/gm-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Styles for tampermonkey.",
   "homepage": "https://github.com/afeiship/gm-styles",
   "author": {
@@ -33,5 +33,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {},
-  "keywords": []
+  "keywords": [
+    "gm",
+    "styles",
+    "tampermonkey"
+  ]
 }
