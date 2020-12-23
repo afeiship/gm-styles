@@ -12,6 +12,25 @@
       font-weight: 300;
       color: #333;
     }
+
+    dl {
+      display: flex;
+      border-bottom: 2px dashed #eee;
+      padding-bottom: 10px;
+    }
+
+    dl dt {
+      width: 80px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: right;
+      padding-right: 10px;
+      border-right: 4px solid #eee;
+    }
+
+    dl dd {
+      flex: 1;
+    }
   </style>
 </head>
 
@@ -27,8 +46,25 @@
         <a class="gm-btn gm-btn-warning">warning</a>
       </p>
       <p>
-        <a class="gm-btn gm-btn-warning gm-btn-mini">warning</a>
-        <a class="gm-btn gm-btn-warning gm-btn-large">warning</a>
+        <a class="gm-btn gm-btn-warning is-mini">warning</a>
+        <a class="gm-btn gm-btn-warning is-large">warning</a>
+      </p>
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>tag</dt>
+    <dd>
+      <p>
+        <a class="gm-tag gm-tag-default">Default</a>
+        <a class="gm-tag gm-tag-primary">Primary</a>
+        <a class="gm-tag gm-tag-positive">positive</a>
+        <a class="gm-tag gm-tag-negative">negative</a>
+        <a class="gm-tag gm-tag-warning">warning</a>
+      </p>
+      <p>
+        <a class="gm-tag gm-tag-warning is-mini">warning</a>
+        <a class="gm-tag gm-tag-warning is-large">warning</a>
       </p>
     </dd>
   </dl>

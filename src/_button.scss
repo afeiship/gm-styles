@@ -18,14 +18,14 @@
     outline: none;
     box-shadow: none;
   }
-}
 
-.#{$prefix}btn-mini {
-  padding: 2px 6px;
-}
+  &.is-small {
+    padding: 2px 6px;
+  }
 
-.#{$prefix}btn-large {
-  padding: 6px 12px;
+  &.is-large {
+    padding: 6px 12px;
+  }
 }
 
 .#{$prefix}btn-form {

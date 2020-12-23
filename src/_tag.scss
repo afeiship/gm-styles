@@ -1,0 +1,53 @@
+.#{$prefix}tag {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background: #ddd;
+  cursor: default;
+  border-radius: $default-border-radius;
+  &.is-small {
+    padding: 2px 6px;
+  }
+
+  &.is-large {
+    padding: 6px 12px;
+  }
+}
+
+// Normal buttons
+.#{$prefix}tag-default {
+  color: $gray-color;
+}
+
+// Button variations
+.#{$prefix}tag-primary,
+.#{$prefix}tag-positive,
+.#{$prefix}tag-negative,
+.#{$prefix}tag-warning {
+  color: #fff;
+}
+
+// For primary buttons
+.#{$prefix}tag-primary {
+  background: $primary-color;
+}
+
+// For positive buttons
+.#{$prefix}tag-positive {
+  background: $positive-color;
+}
+
+// For negative actions
+.#{$prefix}tag-negative {
+  background: $negative-color;
+}
+
+// For warning actions
+.#{$prefix}tag-warning {
+  background: $warning-color;
+}
