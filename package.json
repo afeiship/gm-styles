@@ -32,5 +32,6 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": []
 }
