@@ -32,7 +32,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@jswork/wsui-flexbox": "^1.0.1"
+  },
   "keywords": [
     "gm",
     "styles",
