@@ -1,0 +1,69 @@
+.#{$prefix}btn-group {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; // match .#{$prefix}btn alignment given font-size hack above
+  -webkit-app-region: no-drag;
+
+  .#{$prefix}btn {
+    position: relative;
+    float: left;
+
+    // Bring the "active" button to the front
+    &:focus,
+    &:active{
+      z-index: 2;
+    }
+
+    &.active {
+      z-index: 3;
+    }
+  }
+}
+
+// Prevent double borders when buttons are next to each other
+.#{$prefix}btn-group {
+  .#{$prefix}btn + .#{$prefix}btn,
+  .#{$prefix}btn + .#{$prefix}btn-group,
+  .#{$prefix}btn-group + .#{$prefix}btn,
+  .#{$prefix}btn-group + .#{$prefix}btn-group {
+    margin-left: -1px;
+  }
+
+  > .#{$prefix}btn:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  > .#{$prefix}btn:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  > .#{$prefix}btn:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+
+  .#{$prefix}btn + .#{$prefix}btn {
+    border-left: 1px solid $dark-border-color;
+  }
+
+  .#{$prefix}btn + .#{$prefix}btn.active {
+    border-left: 0;
+  }
+
+  // Selected state
+  .is-active {
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #6d6c6d;
+    background-image: none;
+    &:active{
+      background-color: #333;
+    }
+  }
+
+  // Invert the icon in the active button
+  .is-active .icon {
+    color: #fff;
+  }
+}
