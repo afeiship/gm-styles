@@ -12,7 +12,10 @@ npm install @jswork/gm-styles
 ```
 
 ## size
-- 8.0K/index.css
+- 6.86 kB/index.css
+
+## preview
+- https://afeiship.github.io/gm-styles/
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/gm-styles/blob/master/LICENSE.txt).
