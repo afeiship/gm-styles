@@ -3,7 +3,7 @@
 
   const gulp = require('gulp');
   const path = require('path');
-  var SASS_INCLUDE_PATHS = [path.join(__dirname, '..', '/node_modules/')];
+  const SASS_INCLUDE_PATHS = [path.join(__dirname, '..', '/node_modules/')];
   const $ = require('gulp-load-plugins')({
     pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*', '@jswork/gulp-*']
   });

@@ -33,7 +33,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@jswork/wsui-flexbox": "^1.0.1"
+    "@jswork/wsui-flexbox": "^1.0.1",
+    "balloon-css": "^1.2.0"
   },
   "keywords": [
     "gm",
