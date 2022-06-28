@@ -3,10 +3,13 @@
 
   const gulp = require('gulp');
   const path = require('path');
+  const dartSass = require('dart-sass');
   const SASS_INCLUDE_PATHS = [path.join(__dirname, '..', '/node_modules/')];
   const $ = require('gulp-load-plugins')({
     pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*', '@jswork/gulp-*']
   });
+
+  $.sass.compiler = dartSass;
 
   gulp.task('styles', function () {
     return gulp
