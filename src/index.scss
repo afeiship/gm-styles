@@ -1,4 +1,5 @@
-@import "@jswork/wsui-generators";
+@import "./fns";
+@import "@jswork/wsui-generators/dist/index";
 @import "./variables";
 @import "./mixins";
 @import "./button";
