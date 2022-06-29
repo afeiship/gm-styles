@@ -1,7 +1,0 @@
-@function rem($value, $rem: 50) {
-  @if $rem == px {
-    @return #{$value}px;
-  } @else {
-    @return #{$value/$rem}rem;
-  }
-}
