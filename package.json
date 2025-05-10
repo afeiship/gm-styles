@@ -16,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@jswork/gulp-pkg-header": "^1.0.1",
+    "@jswork/next": "^1.2.13",
     "dart-sass": "^1.25.0",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
@@ -26,7 +27,6 @@
     "gulp-sass": "^5.1.0",
     "gulp-size": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "release-it": "^15.1.0",
     "uglify-save-license": "^0.4.1"
   },
   "publishConfig": {
